@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>Hello Front-End</title>
-</head>
-<body>
-  <h1>Hello Front-End</h1>
 
-  <script type="text/javascript" src="js/script.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Temperature Converter</title>
+</head>
+
+<body>
+    <h1>Temperature Converter</h1>
+    <form>
+        <input type="text" name="input" placeholder="Input Temp To Convert">
+        <input type="radio" name="faren" value="faren" checked> °F
+        <input type="radio" name="celcius" value="celcius"> °C
+        <button name="submit">Submit</button>
+        <button name="clear">Clear</button>
+    </form>
+    <div id="tempResult"></div>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
